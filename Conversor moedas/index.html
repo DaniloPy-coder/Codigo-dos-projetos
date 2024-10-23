@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Conversor de moedas, Câmbio" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Seção da imagem movida para o topo -->
+    <section id="img">
+        <img src="assets/img/imagem moeda.svg" alt="Imagem de moedas">
+    </section>
+
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <form id="converter-form">
+            <div>
+                <label for="from-currency">De:</label>
+                <select id="from-currency">
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="CAD">Dólar Canadense (CAD)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                    <option value="ARS">Peso Argentino (ARS)</option>
+                    <option value="CLP">Peso Chileno (CLP)</option>
+                </select>
+            </div>
+            <div>
+                <label for="to-currency">Para:</label>
+                <select id="to-currency">
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="CAD">Dólar Canadense (CAD)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                    <option value="ARS">Peso Argentino (ARS)</option>
+                    <option value="CLP">Peso Chileno (CLP)</option>
+                </select>
+            </div>
+            <div>
+                <label for="amount">Valor:</label>
+                <input type="number" id="amount" placeholder="Digite o valor">
+            </div>
+            <button type="submit">Converter</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="assets/Js/script.js"></script>
+</body>
+
+</html>
